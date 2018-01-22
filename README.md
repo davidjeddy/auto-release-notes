@@ -3,7 +3,11 @@
 # Why
 Automatically generate release / change notes when a commit is executed.
 
-# Hooks
+# Install
+
+# Usages
+
+# Integrations
 How to include this project into dependancy management systems.
 
 ## PHP's composer
@@ -16,6 +20,6 @@ composer require davidjeddy/auto-release-notes
 composer update -o -vvv
 ```
 
-# Output
+# Results
 Once the process has run you should now havea a release-changes.md in
 the root of your project.
