@@ -18,3 +18,5 @@ case $key in
     ;;
 esac
 done
+
+. ./validateArguments.sh

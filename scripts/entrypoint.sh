@@ -7,6 +7,7 @@ echo "Values passed into process:"
 echo  - PRJPATH    = ${PRJPATH}
 echo  - RECENTONLY = ${RECENTONLY}
 
+. ./preFlight.sh
 # Does release-notes.md exists?
 # no: generate entire change set IF `--recent-only` is NOT set
 # yes: generate from now to prev. tag
