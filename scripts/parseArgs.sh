@@ -6,7 +6,7 @@ do
 key="$1"
 
 case $key in
-    -p|--path)
+    -p|--project-path)
     PRJPATH="$2"
     shift # past argument
     shift # past value
