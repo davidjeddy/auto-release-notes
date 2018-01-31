@@ -1,7 +1,8 @@
 # Auto Release Notes
 
 ## Why
-Automatically generate release / change notes when a commit is executed.
+Automatically generate ./RELEASE-NOTES.md / CHANGE-LOG.md notes from
+Git commit messages when a new tag is generated.
 
 ## Install
 
